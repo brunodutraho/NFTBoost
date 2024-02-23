@@ -23,10 +23,16 @@ module.exports = {
       },
       colors: {
         'blue-primary': '#1D4FFE',
-        'green-primary': '#4BCE97'
+        'green-primary': '#4BCE97',
+        'gray-border-card': '#131317',
+        'gray-area-favorite': '#05030A',
       },
       maxWidth: {
-        grid: '77.5rem'
+        grid: '77.5rem',
+        'card-nft': '17.5rem'
+      },
+      height: {
+        'area-image-card-nft': '14.75rem',
       },
       keyframes: {
         "accordion-down": {
@@ -42,6 +48,13 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+    },
+    screens: {
+      '@tablet': '640px',
+
+      '@laptop': '1024px',
+
+      '@desktop': '1280px',
     },
   },
   plugins: [require("tailwindcss-animate")],
