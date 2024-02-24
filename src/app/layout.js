@@ -30,6 +30,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.variable} ${poppins.variable}`}>
         <Header/>
         {children}
+        <Footer/>
         </body>
     </html>
   );

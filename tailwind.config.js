@@ -29,10 +29,16 @@ module.exports = {
       },
       maxWidth: {
         grid: '77.5rem',
-        'card-nft': '17.5rem'
+        'card-nft': '17.5rem',
+        'card-collector': '37rem',
+        'logo-nft-mobile' : '160px',
+        'nav-header': '48.3rem',
       },
       height: {
         'area-image-card-nft': '14.75rem',
+      },
+      spacing: {
+        'button': '0.875rem',
       },
       keyframes: {
         "accordion-down": {
