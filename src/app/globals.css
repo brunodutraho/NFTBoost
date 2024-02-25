@@ -5,6 +5,7 @@
 * {
     color: #FFFFFF;
     -webkit-font-smoothing: antialiased;
+    font-family: 'Inter', sans-serif;
 }
 
 html {
