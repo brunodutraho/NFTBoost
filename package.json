@@ -1,5 +1,5 @@
 {
-  "name": "hello-world",
+  "name": "NFTBoost",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,6 +15,7 @@
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
+    "swiper": "^11.0.6",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7"
   },

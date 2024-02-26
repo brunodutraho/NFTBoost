@@ -14,6 +14,7 @@ export function CardNFT({thumbnail, name, value, value_brl}) {
                     src={thumbnail}
                     alt='Nft 01'
                     quality={75}
+                    className='w-full h-full object-cover'
                 />
 
                 <div className='absolute top-2 right-2 z-10 flex items-center gap-2 py-3 px-6 bg-gray-area-favorite rounded-full border border-gray-border-card'>

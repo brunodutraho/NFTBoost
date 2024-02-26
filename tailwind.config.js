@@ -21,11 +21,22 @@ module.exports = {
         inter: ['var(--font-inter)'],
         poppins: ['var(--font-poppins)'],
       },
+      fontSize: {
+        sm: '0.8rem',
+        base: '1rem',
+        xl: '1.25rem',
+        '2xl': '1.563rem',
+        '3xl': '1.953rem',
+        '4xl': '2.441rem',
+        '5xl': '3.052rem',
+        'title-mobile-carroussel' : '1.8rem',
+      },
       colors: {
         'blue-primary': '#1D4FFE',
         'green-primary': '#4BCE97',
         'gray-border-card': '#131317',
         'gray-area-favorite': '#05030A',
+        'gray-hover-btn-slide' : '#07050F',
       },
       maxWidth: {
         grid: '77.5rem',
@@ -46,6 +57,7 @@ module.exports = {
       },
       spacing: {
         'button': '0.875rem',
+        'arrow-slide' : '45%'
       },
       keyframes: {
         "accordion-down": {

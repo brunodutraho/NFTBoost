@@ -7,6 +7,7 @@ import SmallNft02 from "@/assets/nft-small-02.png"
 import GooglePlay from "@/assets/google-play.svg"
 import AppStory from "@/assets/app-story.svg"
 import { CardsHero } from "./cards";
+import Link from "next/link";
 
 export function SectionHero() {
     return (
@@ -65,18 +66,24 @@ export function SectionHero() {
                 @laptop:mb-20
 
                 ">
-                    <Image
+                    <Link href="https://play.google.com/" target="_blank">
+                        <Image
                         src={GooglePlay}
                         alt="Google Play"
                         className="mb-4 @tablet:mb-0"
                     />
-                    <Image
+                    </Link>
+                    
+                    <Link href="https://www.apple.com/br/app-store/" target="_blank">
+                        <Image
                         src={AppStory}
                         alt="App Story"
                     />
+                    </Link>
+                    
                 </div>
                 <CardsHero/>
-                <div className="w-full h-2 border-t border-white border-opacity-5 mt-10
+                <div className="w-full h-2 border-t-2  border-white border-opacity-5 mt-10
                 @desktop:mt-36">
 
                 </div>
