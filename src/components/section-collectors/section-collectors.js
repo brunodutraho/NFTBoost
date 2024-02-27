@@ -4,7 +4,7 @@ import { CardsSectionCollectors } from "./cards-section-collectors";
 
 export function SectionCollectors({title, subtitle, data}) {
     return (
-        <section className="py-10 @desktop:py-28">
+        <section className="py-10 @desktop:pt-20 @desktop:pb-28">
             <ContainerGrid>
                 <TitleSection
                     subtitle={subtitle}

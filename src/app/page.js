@@ -132,6 +132,8 @@ import ThumbCollectors05 from '@/assets/small/small-collector-05.svg'
 import ThumbCollectors06 from '@/assets/small/small-collector-06.svg'
 import ThumbCollectors07 from '@/assets/small/small-collector-07.svg'
 import ThumbCollectors08 from '@/assets/small/small-collector-08.svg'
+import { SectionBanner } from "@/components/section-banner";
+import { SectionQuestions } from "@/components/section-questions";
 
 const mainCollectors = [
   {
@@ -215,6 +217,11 @@ export default function Home() {
         title="Tendência"
         data={featuredMonth}
       />
+
+      <SectionBanner/>
+
+      <SectionQuestions/>
+      
     </>
   );
 }

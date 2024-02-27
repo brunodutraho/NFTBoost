@@ -30,6 +30,8 @@ module.exports = {
         '4xl': '2.441rem',
         '5xl': '3.052rem',
         'title-mobile-carroussel' : '1.8rem',
+        'title-banner' : '3.5rem',
+        'title-banner-tablet' : '3.2rem',
       },
       colors: {
         'blue-primary': '#1D4FFE',
@@ -48,12 +50,16 @@ module.exports = {
       },
       width: {
         'area-cards-mobile' : '700px',
-        'area-cards-desktop' : '698px'
+        'area-cards-desktop' : '698px',
+        'area-banner' : '796px'
       },
       height: {
         'area-image-card-nft': '14.75rem',
         'area-cards-mobile' : '15.3rem',
-        'area-cards-leptop' : '28.5rem',
+        'area-cards-leptop' : '26.5rem',
+        'area-grid-banner' : '29.5rem', 
+        'area-grid-banner-mobile' : '34.6875rem', 
+        'area-grid-banner-mobile-fold' : '40.625rem', 
       },
       spacing: {
         'button': '0.875rem',
@@ -75,6 +81,8 @@ module.exports = {
       },
       backgroundImage: {
         'hero-pattern' : 'url("../assets/bg-hero.svg")',
+        'banner' : 'url("../assets/bg-banner.svg")',
+        'banner-mobile' : 'url("../assets/bg-banner-mobile.svg")',
       },
     },
     screens: {

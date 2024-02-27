@@ -19,7 +19,7 @@ export function Footer() {
     return (
         <footer className="gap-8 py-10">
 
-            <ContainerGrid className="flex flex-col items-center justify-center @laptop:flex-row @laptop:justify-between @laptop:pt-32 @laptop:pb-32">
+            <ContainerGrid className="flex flex-col items-center justify-center @laptop:flex-row @laptop:justify-between @laptop:pt-20 @laptop:pb-20">
 
 
                 <div className="text-center mb-10 max-w-80 
